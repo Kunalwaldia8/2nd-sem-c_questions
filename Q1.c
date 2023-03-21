@@ -1,28 +1,28 @@
 #include <stdio.h>
-void sort (int *p,int n){
-	int temp;
-	for (int i=0;i<n;i++){
-		for (int j=0;j<n;j++){
-			if (*(p+i)<*(p+j)){
-				temp=*(p+i);
-				*(p+i)=*(p+j);
-				*(p+j)=temp;
-			}
-		}
-	}
-}
-	
-	
+
 int main(){
-	int arr[5]={3,4,2,1,5},n=5,*p;
-	
-	sort(arr,n);
-	p=arr;
-	for(int i=0;i<n;i++){
-		printf("%d",*(p+i));
-	}
-	
-	return 0;
-}
-	
-	
+        int arr[20],n,*p,min;
+        
+        printf("enter number of elements in arr:");
+        scanf("%d",&n);
+        p=arr;
+        for(int i =0 ; i<n; i++){
+                scanf("%d",p+i);
+               }
+        
+        min=arr[0];
+        
+        for (int i=0;i<n;i++){
+                if (min>*(p+i)){
+                        min=*(p+i);
+                }
+                
+             }
+             
+        printf("smallest element is %d",min);
+        
+        return 0;
+        
+       }
+        
+        
