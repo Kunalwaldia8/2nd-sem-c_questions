@@ -1,3 +1,12 @@
+/* Name               : Kunal Waldia
+   University Roll no : 2022035
+   Section            : K
+Q4. Write a C program using dynamic memory allocation to insert elements in an array and perform the following operation.
+    • Searching of an element.
+    • Replace the searched elements with its cube and print the array
+NOTE: make 2 different user defined function to perform the operation.
+
+*/
 #include<stdio.h>
 #include<stdlib.h>
 int search(int *p,int n){
