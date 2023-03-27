@@ -8,10 +8,13 @@ int search(int *p,int n){
 		if(*(p+i)==k)
 			return i;
 	}
+	printf("element not found");
+	return -1;
 }
 
 void cube(int *p,int n,int i){
-	*(p+i)=(*(p+i))*(*(p+i))*(*(p+i));
+	if(i!=-1)
+	    *(p+i)=(*(p+i))*(*(p+i))*(*(p+i));
 	
 }
 			
