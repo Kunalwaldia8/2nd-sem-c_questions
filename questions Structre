@@ -1,0 +1,10 @@
+develop  a programm to define ,assign,read and display 
+ 	1 book detail
+ 	2 student information
+ 	
+ wap to campare two dates entered by the user ,make a structure name date to store the elements day,month,year . if the dates are equal then display the message "dates are equal" otherwise dates are not equal.
+ 
+ develop a program to find total and average of sales of all employees using array of structure 
+ develop a program to read a set of name , roll no ,date of birth and doa of a student from the keyboard where the dob and dor constists of three memebers such as day, month and year as a seperate structure.
+ 
+ develop a program to send the entire data of structure to a function
