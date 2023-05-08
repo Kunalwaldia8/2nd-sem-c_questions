@@ -1,0 +1,16 @@
+1.Write a structure to store the roll no , name , age (between 11-14) and address of the student more than 5 
+	-write a function to print the names of all the students having age 14 
+	-write another function to print the names of all the students having even roll no 
+	-write another function to display the details of the student whose roll no is entered by the user
+
+2.Write a structure to store the name,acc no. and balance of custumers (more than 5)
+	-wrtie a function to print the names of all the custumers having balance within Rs 200 
+	-write a function to add Rs 100 in balance of all the custumers having more than Rs 1000 in their balance and then print the 	 	  incremented value of their balance 
+	
+3.Write a structure to store the name,salary and hours of work of 5 employees in a company
+	-write a program to increase the salary depending upon the no. of hours of work per day as follows and then print the name of all the employees along with their final salaries.
+	
+	hours of work/day 				/day increase in salary
+	8									50
+	10									100
+	>=12									150
