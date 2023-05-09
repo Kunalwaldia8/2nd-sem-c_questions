@@ -1,0 +1,6 @@
+Create a structure train consists of structure members train name , train no. , arrival and departure station ,departure time, date of arrival and date of departure 
+write a program to input details of 10 trains 
+	-print the details of all train which are departuring from particular station.
+	-print the details of all the trains which are arriving to particular station.
+	-print the detail of all the trains which are running between two input stations.
+	
