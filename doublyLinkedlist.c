@@ -53,14 +53,14 @@ void ddel(node **f,node **r){
 		free(p);
 	}
 	
-	else if(p->prev=NULL)
+	else if(p->prev==NULL)
 	{
 		*f=p->next;
 		(*f)->prev=NULL;
 		free(p);
 	}
 	
-	else if(p->next=NULL){
+	else if(p->next==NULL){
 		*r=p->prev;
 		(*r)->next=NULL;
 		free(p);
